@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['apple', 'banana', 'dragon fruit', 'guava', 'oren', 'pear', 'pineapple', 'sugar apple']
+
+roboflow:
+  workspace: zakirkx12
+  project: fruits-oa6gz
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zakirkx12/fruits-oa6gz/dataset/3
